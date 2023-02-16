@@ -11,7 +11,7 @@ function App() {
     setCount(count + 1)
   }
   if (isLoading) {
-    return <h1>Loading...</h1>
+    return <h1>Hey, wait a sec...</h1>
   }
   return (
     <div className="container">
